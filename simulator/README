@@ -1,0 +1,6 @@
+./anbo {thread_count} {operation} {row_num_per_thread}
+
+ex) ./anbo 4 i 1000
+ => 4개의 쓰레드가 각각 1000 row 씩 insert ( total row 4000 )
+ex) ./anbo 8 u 100
+ => 8개의 쓰레드가 각각 100 row 씩 update ( total row 800 )
